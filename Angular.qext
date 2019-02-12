@@ -1,0 +1,15 @@
+{
+	"name": "Angular",
+	"description": "Basic empty visualization template based on angular.js",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "AMYKOLA",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization",
+	"license": "MIT",
+	"repository": "",
+	"icon": "line-chart",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

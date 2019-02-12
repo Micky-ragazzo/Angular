@@ -1,0 +1,10 @@
+<div qv-extension style="height: 100%; position: relative; overflow: auto;" class="ng-scope">
+	{{ html }} 
+</div>
+
+<div ng-controller="SpicyController">
+	<input ng-model="customSpice">
+	<button ng-click="spicy('chili')">Chili</button>
+	<button ng-click="spicy(customSpice)">Custom spice</button>
+	<p>The food is {{spice}} spicy!</p>
+   </div>
